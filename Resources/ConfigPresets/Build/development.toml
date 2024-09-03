@@ -1,8 +1,7 @@
 ﻿[game]
 # Straight in-game baby
-lobbyenabled = false
-# Dev map for faster loading & convenience
-map = "Dev"
+lobbyenabled = true
+
 role_timers = false
 
 [gateway]
@@ -13,17 +12,18 @@ generator_enabled = false
 grid_splitting = false
 
 [procgen]
+# laga o server se tiver no true mas se tiver no false não carrega nada?
 preload = false
 
 [salvage]
 expedition_cooldown = 30.0
 
 [shuttle]
-grid_fill = false
+grid_fill = true
 auto_call_time = 0
 emergency = false
-arrivals = false
-preload_grids = false
+arrivals = true
+preload_grids = true
 
 [admin]
 see_own_notes = true

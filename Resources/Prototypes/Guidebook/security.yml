@@ -6,7 +6,11 @@
   - Forensics
   - Defusal
   - CriminalRecords
-#  - SpaceLaw # TODO
+  - SpaceLaw 
+  - CrimeList 
+  - ResItem
+  - ResGear 
+  - ControlSub 
 
 - type: guideEntry
   id: Forensics
@@ -22,3 +26,28 @@
   id: CriminalRecords
   name: guide-entry-criminal-records
   text: "/ServerInfo/Guidebook/Security/CriminalRecords.xml"
+
+- type: guideEntry
+  id: SpaceLaw
+  name: SpaceLaw
+  text: "/ServerInfo/Guidebook/Security/SpaceLaw.xml"
+
+- type: guideEntry
+  id: ListaCrimes
+  name: guide-entry-crimelist
+  text: "/ServerInfo/Guidebook/Security/SLCrimeList.xml"
+
+- type: guideEntry
+  id: Items
+  name: guide-entry-restrictedweapons
+  text: "/ServerInfo/Guidebook/Security/SLRestrictedWeapons.xml"
+
+- type: guideEntry
+  id: Equipamentos
+  name: guide-entry-restrictedgear
+  text: "/ServerInfo/Guidebook/Security/SLRestrictedGear.xml"
+
+- type: guideEntry
+  id: Substancias
+  name: guide-entry-controlledsubstances
+  text: "/ServerInfo/Guidebook/Security/SLControlledSubstances.xml"
